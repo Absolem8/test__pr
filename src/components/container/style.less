@@ -1,0 +1,69 @@
+@import '~style/helpers';
+/*@font-face {
+    font-family: Lato-Regular;
+    src: url(../assets/fonts/Lato-Regular.ttf);
+   }
+@font-face {
+    font-family: Lato-Black;
+    src: url(../assets/fonts/Lato-Regular.ttf);
+   }
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../assets/fonts/Lato-Regular.ttf);
+   }*/
+:local(.container) {
+    width: 1170px;
+    height: 100%;
+    position: relative;
+    margin: 0;
+}
+.about__navwrap {
+	width: 100%;
+	position: absolute;
+    bottom: 0;
+
+    nav{
+	max-width: 768px;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+
+        a{
+	font-family: 'Lato-Regular',Arial,sans-serif;
+	font-size: 35px;
+	line-height: 60px;
+	color: #fff;
+
+	margin-right: 40px;
+        }
+    }
+}
+.main{
+	min-height: 390px;
+	height: 390px;
+	background: url('http://promorepublic.com/img-new/about/bg-main1.jpg') no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+     a{
+   			     text-decoration:none;
+     }
+}
+.about__nav_link_active {
+	opacity: 1;
+}
+.about__nav_link:hover {
+	opacity: 1;
+}
+.about__nav_link{
+    opacity: 0.25;
+}
